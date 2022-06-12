@@ -5,7 +5,7 @@ public class StudentData {
 		Student__c s1 = new Student__c();
 		s1.Name = 'ABC';
         //Insert Student Record in Teacher Layout
-        s1.RecordTypeId = '0125i00000052gYAAQ';
+        Id recordTypeIdOfStudent = Schema.SObjectType.Student__c.getRecordTypeInfosByName().get('Teacher').getRecordTypeId();  
 		s1.Roll_Number__c = 2345;
         s1.Address__c = 'Alwar';
         s1.Student_Email_Id__c = 'xyz@fexle.com';
