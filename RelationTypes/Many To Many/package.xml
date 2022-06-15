@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>StudentSubject__c.Student__c</members>
+        <members>StudentSubject__c.Subject__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>StudentSubject__c</members>
+        <members>Student__c</members>
+        <members>Subject__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>StudentSubject__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>StudentSubject__c-StudentSubject Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>53.0</version>
+</Package>
