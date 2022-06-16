@@ -1,14 +1,14 @@
 /**
-                    * Description   - This is a class of all relation types i.e. one to one,one to many, many to many, self relation and Hierarchical relations by using lookup and master-detail fields.
-                    *
-                    * Created by    - Prateek Bhadoria
-                    *
-                    * Created Date  - 15/06/2022
-                    *
-                    * Revision log  -  V_1.0 - Created  - Your name -Prateek Bhadoria, Date- 15/06/2022
-                    *
-                    **/
-                    public class RelationTypes {
+* Description   - This is a class of all relation types i.e. one to one,one to many, many to many, self relation and Hierarchical relations by using lookup and master-detail fields.
+*
+* Created by    - Prateek Bhadoria
+*
+* Created Date  - 15/06/2022
+*
+* Revision log  -  V_1.0 - Created  - Your name -Prateek Bhadoria, Date- 15/06/2022
+*
+**/
+public class RelationTypes {
                     /**   Description :   To insert Pancard, One to One Realtionship(Lookup Relatioship)
                     *
                     *     Created By  :   Prateek Bhadoria
