@@ -1,0 +1,4127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Account_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Number</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Address</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Bank_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Bank Name</label>
+        <length>16</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bank_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Bank Phone Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <externalId>false</externalId>
+        <label>City</label>
+        <length>16</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Class__c</fullName>
+        <externalId>false</externalId>
+        <label>Class</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ACCOUNTS</fullName>
+                    <default>false</default>
+                    <label>ACCOUNTS</label>
+                </value>
+                <value>
+                    <fullName>CIVIL</fullName>
+                    <default>false</default>
+                    <label>CIVIL</label>
+                </value>
+                <value>
+                    <fullName>CS</fullName>
+                    <default>false</default>
+                    <label>CS</label>
+                </value>
+                <value>
+                    <fullName>ECE</fullName>
+                    <default>false</default>
+                    <label>ECE</label>
+                </value>
+                <value>
+                    <fullName>FINANCE</fullName>
+                    <default>false</default>
+                    <label>FINANCE</label>
+                </value>
+                <value>
+                    <fullName>GEOGRAPHY</fullName>
+                    <default>false</default>
+                    <label>GEOGRAPHY</label>
+                </value>
+                <value>
+                    <fullName>HISTORY</fullName>
+                    <default>false</default>
+                    <label>HISTORY</label>
+                </value>
+                <value>
+                    <fullName>HR</fullName>
+                    <default>false</default>
+                    <label>HR</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>MARKETING</fullName>
+                    <default>false</default>
+                    <label>MARKETING</label>
+                </value>
+                <value>
+                    <fullName>MATH</fullName>
+                    <default>false</default>
+                    <label>MATH</label>
+                </value>
+                <value>
+                    <fullName>ME</fullName>
+                    <default>false</default>
+                    <label>ME</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Current_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>First Year</fullName>
+                    <default>false</default>
+                    <label>First Year</label>
+                </value>
+                <value>
+                    <fullName>Second Year</fullName>
+                    <default>false</default>
+                    <label>Second Year</label>
+                </value>
+                <value>
+                    <fullName>Third Year</fullName>
+                    <default>false</default>
+                    <label>Third Year</label>
+                </value>
+                <value>
+                    <fullName>Fourth Year</fullName>
+                    <default>false</default>
+                    <label>Fourth Year</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Donation_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Donation Amount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Exam_Fees_Submitted__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Exam Fees Submitted?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Father_Mobile_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Father Mobile Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Father_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Father Name</label>
+        <length>16</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fees_Submitted__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Fees Submitted?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Home_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Phone Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>IFSC_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>IFSC Code</label>
+        <length>8</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Donation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Donation?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mobile_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Overall_Grade__c</fullName>
+        <externalId>false</externalId>
+        <label>Overall Grade</label>
+        <precision>6</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Pending_Exam_Fees__c</fullName>
+        <externalId>false</externalId>
+        <label>Pending Exam Fees</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pending_Fees_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Pending Fees Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pending_Overall_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Pending Overall Amount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Roll_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Roll Number</label>
+        <precision>6</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Section__c</fullName>
+        <externalId>false</externalId>
+        <label>Section</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+                <value>
+                    <fullName>F</fullName>
+                    <default>false</default>
+                    <label>F</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <externalId>false</externalId>
+        <label>State</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Andhra Pradesh</fullName>
+                    <default>false</default>
+                    <label>Andhra Pradesh</label>
+                </value>
+                <value>
+                    <fullName>Arunachal Pradesh</fullName>
+                    <default>false</default>
+                    <label>Arunachal Pradesh</label>
+                </value>
+                <value>
+                    <fullName>Assam</fullName>
+                    <default>false</default>
+                    <label>Assam</label>
+                </value>
+                <value>
+                    <fullName>Bihar</fullName>
+                    <default>false</default>
+                    <label>Bihar</label>
+                </value>
+                <value>
+                    <fullName>Chennai</fullName>
+                    <default>false</default>
+                    <label>Chennai</label>
+                </value>
+                <value>
+                    <fullName>Chhattisgarh</fullName>
+                    <default>false</default>
+                    <label>Chhattisgarh</label>
+                </value>
+                <value>
+                    <fullName>Gangtok</fullName>
+                    <default>false</default>
+                    <label>Gangtok</label>
+                </value>
+                <value>
+                    <fullName>Goa</fullName>
+                    <default>false</default>
+                    <label>Goa</label>
+                </value>
+                <value>
+                    <fullName>Gujarat</fullName>
+                    <default>false</default>
+                    <label>Gujarat</label>
+                </value>
+                <value>
+                    <fullName>Haryana</fullName>
+                    <default>false</default>
+                    <label>Haryana</label>
+                </value>
+                <value>
+                    <fullName>Himachal Pradesh</fullName>
+                    <default>false</default>
+                    <label>Himachal Pradesh</label>
+                </value>
+                <value>
+                    <fullName>Hyderabad</fullName>
+                    <default>false</default>
+                    <label>Hyderabad</label>
+                </value>
+                <value>
+                    <fullName>Jharkhand</fullName>
+                    <default>false</default>
+                    <label>Jharkhand</label>
+                </value>
+                <value>
+                    <fullName>Karnataka</fullName>
+                    <default>false</default>
+                    <label>Karnataka</label>
+                </value>
+                <value>
+                    <fullName>Kerala</fullName>
+                    <default>false</default>
+                    <label>Kerala</label>
+                </value>
+                <value>
+                    <fullName>Madhya Pradesh</fullName>
+                    <default>false</default>
+                    <label>Madhya Pradesh</label>
+                </value>
+                <value>
+                    <fullName>Maharashtra</fullName>
+                    <default>false</default>
+                    <label>Maharashtra</label>
+                </value>
+                <value>
+                    <fullName>Manipur</fullName>
+                    <default>false</default>
+                    <label>Manipur</label>
+                </value>
+                <value>
+                    <fullName>Meghalaya</fullName>
+                    <default>false</default>
+                    <label>Meghalaya</label>
+                </value>
+                <value>
+                    <fullName>Mizoram</fullName>
+                    <default>false</default>
+                    <label>Mizoram</label>
+                </value>
+                <value>
+                    <fullName>Nagaland</fullName>
+                    <default>false</default>
+                    <label>Nagaland</label>
+                </value>
+                <value>
+                    <fullName>Odisha</fullName>
+                    <default>false</default>
+                    <label>Odisha</label>
+                </value>
+                <value>
+                    <fullName>Punjab</fullName>
+                    <default>false</default>
+                    <label>Punjab</label>
+                </value>
+                <value>
+                    <fullName>Rajasthan</fullName>
+                    <default>false</default>
+                    <label>Rajasthan</label>
+                </value>
+                <value>
+                    <fullName>Sikkim</fullName>
+                    <default>false</default>
+                    <label>Sikkim</label>
+                </value>
+                <value>
+                    <fullName>Tamil Nadu</fullName>
+                    <default>false</default>
+                    <label>Tamil Nadu</label>
+                </value>
+                <value>
+                    <fullName>Telangana</fullName>
+                    <default>false</default>
+                    <label>Telangana</label>
+                </value>
+                <value>
+                    <fullName>Tripura</fullName>
+                    <default>false</default>
+                    <label>Tripura</label>
+                </value>
+                <value>
+                    <fullName>Uttarakhand</fullName>
+                    <default>false</default>
+                    <label>Uttarakhand</label>
+                </value>
+                <value>
+                    <fullName>Uttar Pradesh</fullName>
+                    <default>false</default>
+                    <label>Uttar Pradesh</label>
+                </value>
+                <value>
+                    <fullName>West Bengal</fullName>
+                    <default>false</default>
+                    <label>West Bengal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Stream__c</fullName>
+        <externalId>false</externalId>
+        <label>Stream</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>B.Arch</fullName>
+                    <default>false</default>
+                    <label>B.Arch</label>
+                </value>
+                <value>
+                    <fullName>B.Com</fullName>
+                    <default>false</default>
+                    <label>B.Com</label>
+                </value>
+                <value>
+                    <fullName>B.Tech</fullName>
+                    <default>false</default>
+                    <label>B.Tech</label>
+                </value>
+                <value>
+                    <fullName>BA</fullName>
+                    <default>false</default>
+                    <label>BA</label>
+                </value>
+                <value>
+                    <fullName>BBA</fullName>
+                    <default>false</default>
+                    <label>BBA</label>
+                </value>
+                <value>
+                    <fullName>BCA</fullName>
+                    <default>false</default>
+                    <label>BCA</label>
+                </value>
+                <value>
+                    <fullName>M.Tech</fullName>
+                    <default>false</default>
+                    <label>M.Tech</label>
+                </value>
+                <value>
+                    <fullName>MBA</fullName>
+                    <default>false</default>
+                    <label>MBA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Student_Email_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Email Id</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_Id__c</fullName>
+        <displayFormat>A-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Student Id</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Subjects_in_which_Back2__c</fullName>
+        <externalId>false</externalId>
+        <label>Subjects in which Back</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accounting</fullName>
+                    <default>false</default>
+                    <label>Accounting</label>
+                </value>
+                <value>
+                    <fullName>Applied Mechanics Lab</fullName>
+                    <default>false</default>
+                    <label>Applied Mechanics Lab</label>
+                </value>
+                <value>
+                    <fullName>Artificial Intelligence.</fullName>
+                    <default>false</default>
+                    <label>Artificial Intelligence.</label>
+                </value>
+                <value>
+                    <fullName>Business Analytics</fullName>
+                    <default>false</default>
+                    <label>Business Analytics</label>
+                </value>
+                <value>
+                    <fullName>Business Economics</fullName>
+                    <default>false</default>
+                    <label>Business Economics</label>
+                </value>
+                <value>
+                    <fullName>Business Law</fullName>
+                    <default>false</default>
+                    <label>Business Law</label>
+                </value>
+                <value>
+                    <fullName>Business Organisation and Principles of Management</fullName>
+                    <default>false</default>
+                    <label>Business Organisation and Principles of Management</label>
+                </value>
+                <value>
+                    <fullName>CAD/CAM</fullName>
+                    <default>false</default>
+                    <label>CAD/CAM</label>
+                </value>
+                <value>
+                    <fullName>Computer Architecture.</fullName>
+                    <default>false</default>
+                    <label>Computer Architecture.</label>
+                </value>
+                <value>
+                    <fullName>Computer Forensics.</fullName>
+                    <default>false</default>
+                    <label>Computer Forensics.</label>
+                </value>
+                <value>
+                    <fullName>Computer Networks.</fullName>
+                    <default>false</default>
+                    <label>Computer Networks.</label>
+                </value>
+                <value>
+                    <fullName>Conflict Resolution</fullName>
+                    <default>false</default>
+                    <label>Conflict Resolution</label>
+                </value>
+                <value>
+                    <fullName>Data Structure and Algorithms.</fullName>
+                    <default>false</default>
+                    <label>Data Structure and Algorithms.</label>
+                </value>
+                <value>
+                    <fullName>Dynamics of Machines</fullName>
+                    <default>false</default>
+                    <label>Dynamics of Machines</label>
+                </value>
+                <value>
+                    <fullName>Electrohydraulic Control Systems</fullName>
+                    <default>false</default>
+                    <label>Electrohydraulic Control Systems</label>
+                </value>
+                <value>
+                    <fullName>Engineering Drawing</fullName>
+                    <default>false</default>
+                    <label>Engineering Drawing</label>
+                </value>
+                <value>
+                    <fullName>Engineering Mechanics</fullName>
+                    <default>false</default>
+                    <label>Engineering Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Entrepreneurship</fullName>
+                    <default>false</default>
+                    <label>Entrepreneurship</label>
+                </value>
+                <value>
+                    <fullName>Essentials of Marketing</fullName>
+                    <default>false</default>
+                    <label>Essentials of Marketing</label>
+                </value>
+                <value>
+                    <fullName>Etiquette and Conversational Skills</fullName>
+                    <default>false</default>
+                    <label>Etiquette and Conversational Skills</label>
+                </value>
+                <value>
+                    <fullName>Financial Management</fullName>
+                    <default>false</default>
+                    <label>Financial Management</label>
+                </value>
+                <value>
+                    <fullName>Fluid Machinery</fullName>
+                    <default>false</default>
+                    <label>Fluid Machinery</label>
+                </value>
+                <value>
+                    <fullName>Fluid Mechanics</fullName>
+                    <default>false</default>
+                    <label>Fluid Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Heat Transfer</fullName>
+                    <default>false</default>
+                    <label>Heat Transfer</label>
+                </value>
+                <value>
+                    <fullName>Human Resource Management</fullName>
+                    <default>false</default>
+                    <label>Human Resource Management</label>
+                </value>
+                <value>
+                    <fullName>Industrial Management</fullName>
+                    <default>false</default>
+                    <label>Industrial Management</label>
+                </value>
+                <value>
+                    <fullName>International Business Management</fullName>
+                    <default>false</default>
+                    <label>International Business Management</label>
+                </value>
+                <value>
+                    <fullName>Kinematic Analysis and Synthesis</fullName>
+                    <default>false</default>
+                    <label>Kinematic Analysis and Synthesis</label>
+                </value>
+                <value>
+                    <fullName>Machine Design</fullName>
+                    <default>false</default>
+                    <label>Machine Design</label>
+                </value>
+                <value>
+                    <fullName>Machine Drawing</fullName>
+                    <default>false</default>
+                    <label>Machine Drawing</label>
+                </value>
+                <value>
+                    <fullName>Machine Learning.</fullName>
+                    <default>false</default>
+                    <label>Machine Learning.</label>
+                </value>
+                <value>
+                    <fullName>Machining Technology and Metrology</fullName>
+                    <default>false</default>
+                    <label>Machining Technology and Metrology</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing Processes</fullName>
+                    <default>false</default>
+                    <label>Manufacturing Processes</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Material Science and Engineering</fullName>
+                    <default>false</default>
+                    <label>Material Science and Engineering</label>
+                </value>
+                <value>
+                    <fullName>Mathematics for Business</fullName>
+                    <default>false</default>
+                    <label>Mathematics for Business</label>
+                </value>
+                <value>
+                    <fullName>Measurement and Instrumentation</fullName>
+                    <default>false</default>
+                    <label>Measurement and Instrumentation</label>
+                </value>
+                <value>
+                    <fullName>Mechanics</fullName>
+                    <default>false</default>
+                    <label>Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Mechatronics and Robotics</fullName>
+                    <default>false</default>
+                    <label>Mechatronics and Robotics</label>
+                </value>
+                <value>
+                    <fullName>Metrology and Metallography Lab</fullName>
+                    <default>false</default>
+                    <label>Metrology and Metallography Lab</label>
+                </value>
+                <value>
+                    <fullName>Negotiating and Persuading Skills</fullName>
+                    <default>false</default>
+                    <label>Negotiating and Persuading Skills</label>
+                </value>
+                <value>
+                    <fullName>Operating Systems.</fullName>
+                    <default>false</default>
+                    <label>Operating Systems.</label>
+                </value>
+                <value>
+                    <fullName>Organisational  Behaviour</fullName>
+                    <default>false</default>
+                    <label>Organisational  Behaviour</label>
+                </value>
+                <value>
+                    <fullName>Personality Development</fullName>
+                    <default>false</default>
+                    <label>Personality Development</label>
+                </value>
+                <value>
+                    <fullName>Problem Solving and Consulting Skills</fullName>
+                    <default>false</default>
+                    <label>Problem Solving and Consulting Skills</label>
+                </value>
+                <value>
+                    <fullName>Programming in C, C++</fullName>
+                    <default>false</default>
+                    <label>Programming in C, C++</label>
+                </value>
+                <value>
+                    <fullName>Selling</fullName>
+                    <default>false</default>
+                    <label>Selling</label>
+                </value>
+                <value>
+                    <fullName>Steam Power Plant</fullName>
+                    <default>false</default>
+                    <label>Steam Power Plant</label>
+                </value>
+                <value>
+                    <fullName>Strength of material</fullName>
+                    <default>false</default>
+                    <label>Strength of material</label>
+                </value>
+                <value>
+                    <fullName>Theory of Machines</fullName>
+                    <default>false</default>
+                    <label>Theory of Machines</label>
+                </value>
+                <value>
+                    <fullName>Workshop Practice</fullName>
+                    <default>false</default>
+                    <label>Workshop Practice</label>
+                </value>
+                <value>
+                    <fullName>Writing Skills</fullName>
+                    <default>false</default>
+                    <label>Writing Skills</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Subjects_in_which_Back3__c</fullName>
+        <externalId>false</externalId>
+        <label>Subjects in which Back</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accounting</fullName>
+                    <default>false</default>
+                    <label>Accounting</label>
+                </value>
+                <value>
+                    <fullName>Applied Mechanics Lab</fullName>
+                    <default>false</default>
+                    <label>Applied Mechanics Lab</label>
+                </value>
+                <value>
+                    <fullName>Artificial Intelligence.</fullName>
+                    <default>false</default>
+                    <label>Artificial Intelligence.</label>
+                </value>
+                <value>
+                    <fullName>Business Analytics</fullName>
+                    <default>false</default>
+                    <label>Business Analytics</label>
+                </value>
+                <value>
+                    <fullName>Business Economics</fullName>
+                    <default>false</default>
+                    <label>Business Economics</label>
+                </value>
+                <value>
+                    <fullName>Business Law</fullName>
+                    <default>false</default>
+                    <label>Business Law</label>
+                </value>
+                <value>
+                    <fullName>Business Organisation and Principles of Management</fullName>
+                    <default>false</default>
+                    <label>Business Organisation and Principles of Management</label>
+                </value>
+                <value>
+                    <fullName>CAD/CAM</fullName>
+                    <default>false</default>
+                    <label>CAD/CAM</label>
+                </value>
+                <value>
+                    <fullName>Computer Architecture.</fullName>
+                    <default>false</default>
+                    <label>Computer Architecture.</label>
+                </value>
+                <value>
+                    <fullName>Computer Forensics.</fullName>
+                    <default>false</default>
+                    <label>Computer Forensics.</label>
+                </value>
+                <value>
+                    <fullName>Computer Networks.</fullName>
+                    <default>false</default>
+                    <label>Computer Networks.</label>
+                </value>
+                <value>
+                    <fullName>Conflict Resolution</fullName>
+                    <default>false</default>
+                    <label>Conflict Resolution</label>
+                </value>
+                <value>
+                    <fullName>Data Structure and Algorithms.</fullName>
+                    <default>false</default>
+                    <label>Data Structure and Algorithms.</label>
+                </value>
+                <value>
+                    <fullName>Dynamics of Machines</fullName>
+                    <default>false</default>
+                    <label>Dynamics of Machines</label>
+                </value>
+                <value>
+                    <fullName>Electrohydraulic Control Systems</fullName>
+                    <default>false</default>
+                    <label>Electrohydraulic Control Systems</label>
+                </value>
+                <value>
+                    <fullName>Engineering Drawing</fullName>
+                    <default>false</default>
+                    <label>Engineering Drawing</label>
+                </value>
+                <value>
+                    <fullName>Engineering Mechanics</fullName>
+                    <default>false</default>
+                    <label>Engineering Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Entrepreneurship</fullName>
+                    <default>false</default>
+                    <label>Entrepreneurship</label>
+                </value>
+                <value>
+                    <fullName>Essentials of Marketing</fullName>
+                    <default>false</default>
+                    <label>Essentials of Marketing</label>
+                </value>
+                <value>
+                    <fullName>Etiquette and Conversational Skills</fullName>
+                    <default>false</default>
+                    <label>Etiquette and Conversational Skills</label>
+                </value>
+                <value>
+                    <fullName>Financial Management</fullName>
+                    <default>false</default>
+                    <label>Financial Management</label>
+                </value>
+                <value>
+                    <fullName>Fluid Machinery</fullName>
+                    <default>false</default>
+                    <label>Fluid Machinery</label>
+                </value>
+                <value>
+                    <fullName>Fluid Mechanics</fullName>
+                    <default>false</default>
+                    <label>Fluid Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Heat Transfer</fullName>
+                    <default>false</default>
+                    <label>Heat Transfer</label>
+                </value>
+                <value>
+                    <fullName>Human Resource Management</fullName>
+                    <default>false</default>
+                    <label>Human Resource Management</label>
+                </value>
+                <value>
+                    <fullName>Industrial Management</fullName>
+                    <default>false</default>
+                    <label>Industrial Management</label>
+                </value>
+                <value>
+                    <fullName>International Business Management</fullName>
+                    <default>false</default>
+                    <label>International Business Management</label>
+                </value>
+                <value>
+                    <fullName>Kinematic Analysis and Synthesis</fullName>
+                    <default>false</default>
+                    <label>Kinematic Analysis and Synthesis</label>
+                </value>
+                <value>
+                    <fullName>Machine Design</fullName>
+                    <default>false</default>
+                    <label>Machine Design</label>
+                </value>
+                <value>
+                    <fullName>Machine Drawing</fullName>
+                    <default>false</default>
+                    <label>Machine Drawing</label>
+                </value>
+                <value>
+                    <fullName>Machine Learning.</fullName>
+                    <default>false</default>
+                    <label>Machine Learning.</label>
+                </value>
+                <value>
+                    <fullName>Machining Technology and Metrology</fullName>
+                    <default>false</default>
+                    <label>Machining Technology and Metrology</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing Processes</fullName>
+                    <default>false</default>
+                    <label>Manufacturing Processes</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Material Science and Engineering</fullName>
+                    <default>false</default>
+                    <label>Material Science and Engineering</label>
+                </value>
+                <value>
+                    <fullName>Mathematics for Business</fullName>
+                    <default>false</default>
+                    <label>Mathematics for Business</label>
+                </value>
+                <value>
+                    <fullName>Measurement and Instrumentation</fullName>
+                    <default>false</default>
+                    <label>Measurement and Instrumentation</label>
+                </value>
+                <value>
+                    <fullName>Mechanics</fullName>
+                    <default>false</default>
+                    <label>Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Mechatronics and Robotics</fullName>
+                    <default>false</default>
+                    <label>Mechatronics and Robotics</label>
+                </value>
+                <value>
+                    <fullName>Metrology and Metallography Lab</fullName>
+                    <default>false</default>
+                    <label>Metrology and Metallography Lab</label>
+                </value>
+                <value>
+                    <fullName>Negotiating and Persuading Skills</fullName>
+                    <default>false</default>
+                    <label>Negotiating and Persuading Skills</label>
+                </value>
+                <value>
+                    <fullName>Operating Systems.</fullName>
+                    <default>false</default>
+                    <label>Operating Systems.</label>
+                </value>
+                <value>
+                    <fullName>Organisational  Behaviour</fullName>
+                    <default>false</default>
+                    <label>Organisational  Behaviour</label>
+                </value>
+                <value>
+                    <fullName>Personality Development</fullName>
+                    <default>false</default>
+                    <label>Personality Development</label>
+                </value>
+                <value>
+                    <fullName>Problem Solving and Consulting Skills</fullName>
+                    <default>false</default>
+                    <label>Problem Solving and Consulting Skills</label>
+                </value>
+                <value>
+                    <fullName>Programming in C, C++</fullName>
+                    <default>false</default>
+                    <label>Programming in C, C++</label>
+                </value>
+                <value>
+                    <fullName>Selling</fullName>
+                    <default>false</default>
+                    <label>Selling</label>
+                </value>
+                <value>
+                    <fullName>Steam Power Plant</fullName>
+                    <default>false</default>
+                    <label>Steam Power Plant</label>
+                </value>
+                <value>
+                    <fullName>Strength of material</fullName>
+                    <default>false</default>
+                    <label>Strength of material</label>
+                </value>
+                <value>
+                    <fullName>Theory of Machines</fullName>
+                    <default>false</default>
+                    <label>Theory of Machines</label>
+                </value>
+                <value>
+                    <fullName>Workshop Practice</fullName>
+                    <default>false</default>
+                    <label>Workshop Practice</label>
+                </value>
+                <value>
+                    <fullName>Writing Skills</fullName>
+                    <default>false</default>
+                    <label>Writing Skills</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Subjects_in_which_Back4__c</fullName>
+        <externalId>false</externalId>
+        <label>Subjects in which Back</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accounting</fullName>
+                    <default>false</default>
+                    <label>Accounting</label>
+                </value>
+                <value>
+                    <fullName>Applied Mechanics Lab</fullName>
+                    <default>false</default>
+                    <label>Applied Mechanics Lab</label>
+                </value>
+                <value>
+                    <fullName>Artificial Intelligence.</fullName>
+                    <default>false</default>
+                    <label>Artificial Intelligence.</label>
+                </value>
+                <value>
+                    <fullName>Business Analytics</fullName>
+                    <default>false</default>
+                    <label>Business Analytics</label>
+                </value>
+                <value>
+                    <fullName>Business Economics</fullName>
+                    <default>false</default>
+                    <label>Business Economics</label>
+                </value>
+                <value>
+                    <fullName>Business Law</fullName>
+                    <default>false</default>
+                    <label>Business Law</label>
+                </value>
+                <value>
+                    <fullName>Business Organisation and Principles of Management</fullName>
+                    <default>false</default>
+                    <label>Business Organisation and Principles of Management</label>
+                </value>
+                <value>
+                    <fullName>CAD/CAM</fullName>
+                    <default>false</default>
+                    <label>CAD/CAM</label>
+                </value>
+                <value>
+                    <fullName>Computer Architecture.</fullName>
+                    <default>false</default>
+                    <label>Computer Architecture.</label>
+                </value>
+                <value>
+                    <fullName>Computer Forensics.</fullName>
+                    <default>false</default>
+                    <label>Computer Forensics.</label>
+                </value>
+                <value>
+                    <fullName>Computer Networks.</fullName>
+                    <default>false</default>
+                    <label>Computer Networks.</label>
+                </value>
+                <value>
+                    <fullName>Conflict Resolution</fullName>
+                    <default>false</default>
+                    <label>Conflict Resolution</label>
+                </value>
+                <value>
+                    <fullName>Data Structure and Algorithms.</fullName>
+                    <default>false</default>
+                    <label>Data Structure and Algorithms.</label>
+                </value>
+                <value>
+                    <fullName>Dynamics of Machines</fullName>
+                    <default>false</default>
+                    <label>Dynamics of Machines</label>
+                </value>
+                <value>
+                    <fullName>Electrohydraulic Control Systems</fullName>
+                    <default>false</default>
+                    <label>Electrohydraulic Control Systems</label>
+                </value>
+                <value>
+                    <fullName>Engineering Drawing</fullName>
+                    <default>false</default>
+                    <label>Engineering Drawing</label>
+                </value>
+                <value>
+                    <fullName>Engineering Mechanics</fullName>
+                    <default>false</default>
+                    <label>Engineering Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Entrepreneurship</fullName>
+                    <default>false</default>
+                    <label>Entrepreneurship</label>
+                </value>
+                <value>
+                    <fullName>Essentials of Marketing</fullName>
+                    <default>false</default>
+                    <label>Essentials of Marketing</label>
+                </value>
+                <value>
+                    <fullName>Etiquette and Conversational Skills</fullName>
+                    <default>false</default>
+                    <label>Etiquette and Conversational Skills</label>
+                </value>
+                <value>
+                    <fullName>Financial Management</fullName>
+                    <default>false</default>
+                    <label>Financial Management</label>
+                </value>
+                <value>
+                    <fullName>Fluid Machinery</fullName>
+                    <default>false</default>
+                    <label>Fluid Machinery</label>
+                </value>
+                <value>
+                    <fullName>Fluid Mechanics</fullName>
+                    <default>false</default>
+                    <label>Fluid Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Heat Transfer</fullName>
+                    <default>false</default>
+                    <label>Heat Transfer</label>
+                </value>
+                <value>
+                    <fullName>Human Resource Management</fullName>
+                    <default>false</default>
+                    <label>Human Resource Management</label>
+                </value>
+                <value>
+                    <fullName>Industrial Management</fullName>
+                    <default>false</default>
+                    <label>Industrial Management</label>
+                </value>
+                <value>
+                    <fullName>International Business Management</fullName>
+                    <default>false</default>
+                    <label>International Business Management</label>
+                </value>
+                <value>
+                    <fullName>Kinematic Analysis and Synthesis</fullName>
+                    <default>false</default>
+                    <label>Kinematic Analysis and Synthesis</label>
+                </value>
+                <value>
+                    <fullName>Machine Design</fullName>
+                    <default>false</default>
+                    <label>Machine Design</label>
+                </value>
+                <value>
+                    <fullName>Machine Drawing</fullName>
+                    <default>false</default>
+                    <label>Machine Drawing</label>
+                </value>
+                <value>
+                    <fullName>Machine Learning.</fullName>
+                    <default>false</default>
+                    <label>Machine Learning.</label>
+                </value>
+                <value>
+                    <fullName>Machining Technology and Metrology</fullName>
+                    <default>false</default>
+                    <label>Machining Technology and Metrology</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing Processes</fullName>
+                    <default>false</default>
+                    <label>Manufacturing Processes</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Material Science and Engineering</fullName>
+                    <default>false</default>
+                    <label>Material Science and Engineering</label>
+                </value>
+                <value>
+                    <fullName>Mathematics for Business</fullName>
+                    <default>false</default>
+                    <label>Mathematics for Business</label>
+                </value>
+                <value>
+                    <fullName>Measurement and Instrumentation</fullName>
+                    <default>false</default>
+                    <label>Measurement and Instrumentation</label>
+                </value>
+                <value>
+                    <fullName>Mechanics</fullName>
+                    <default>false</default>
+                    <label>Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Mechatronics and Robotics</fullName>
+                    <default>false</default>
+                    <label>Mechatronics and Robotics</label>
+                </value>
+                <value>
+                    <fullName>Metrology and Metallography Lab</fullName>
+                    <default>false</default>
+                    <label>Metrology and Metallography Lab</label>
+                </value>
+                <value>
+                    <fullName>Negotiating and Persuading Skills</fullName>
+                    <default>false</default>
+                    <label>Negotiating and Persuading Skills</label>
+                </value>
+                <value>
+                    <fullName>Operating Systems.</fullName>
+                    <default>false</default>
+                    <label>Operating Systems.</label>
+                </value>
+                <value>
+                    <fullName>Organisational  Behaviour</fullName>
+                    <default>false</default>
+                    <label>Organisational  Behaviour</label>
+                </value>
+                <value>
+                    <fullName>Personality Development</fullName>
+                    <default>false</default>
+                    <label>Personality Development</label>
+                </value>
+                <value>
+                    <fullName>Problem Solving and Consulting Skills</fullName>
+                    <default>false</default>
+                    <label>Problem Solving and Consulting Skills</label>
+                </value>
+                <value>
+                    <fullName>Programming in C, C++</fullName>
+                    <default>false</default>
+                    <label>Programming in C, C++</label>
+                </value>
+                <value>
+                    <fullName>Selling</fullName>
+                    <default>false</default>
+                    <label>Selling</label>
+                </value>
+                <value>
+                    <fullName>Steam Power Plant</fullName>
+                    <default>false</default>
+                    <label>Steam Power Plant</label>
+                </value>
+                <value>
+                    <fullName>Strength of material</fullName>
+                    <default>false</default>
+                    <label>Strength of material</label>
+                </value>
+                <value>
+                    <fullName>Theory of Machines</fullName>
+                    <default>false</default>
+                    <label>Theory of Machines</label>
+                </value>
+                <value>
+                    <fullName>Workshop Practice</fullName>
+                    <default>false</default>
+                    <label>Workshop Practice</label>
+                </value>
+                <value>
+                    <fullName>Writing Skills</fullName>
+                    <default>false</default>
+                    <label>Writing Skills</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Subjects_in_which_Back__c</fullName>
+        <externalId>false</externalId>
+        <label>Subjects in which Back</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accounting</fullName>
+                    <default>false</default>
+                    <label>Accounting</label>
+                </value>
+                <value>
+                    <fullName>Applied Mechanics Lab</fullName>
+                    <default>false</default>
+                    <label>Applied Mechanics Lab</label>
+                </value>
+                <value>
+                    <fullName>Artificial Intelligence.</fullName>
+                    <default>false</default>
+                    <label>Artificial Intelligence.</label>
+                </value>
+                <value>
+                    <fullName>Business Analytics</fullName>
+                    <default>false</default>
+                    <label>Business Analytics</label>
+                </value>
+                <value>
+                    <fullName>Business Economics</fullName>
+                    <default>false</default>
+                    <label>Business Economics</label>
+                </value>
+                <value>
+                    <fullName>Business Law</fullName>
+                    <default>false</default>
+                    <label>Business Law</label>
+                </value>
+                <value>
+                    <fullName>Business Organisation and Principles of Management</fullName>
+                    <default>false</default>
+                    <label>Business Organisation and Principles of Management</label>
+                </value>
+                <value>
+                    <fullName>CAD/CAM</fullName>
+                    <default>false</default>
+                    <label>CAD/CAM</label>
+                </value>
+                <value>
+                    <fullName>Computer Architecture.</fullName>
+                    <default>false</default>
+                    <label>Computer Architecture.</label>
+                </value>
+                <value>
+                    <fullName>Computer Forensics.</fullName>
+                    <default>false</default>
+                    <label>Computer Forensics.</label>
+                </value>
+                <value>
+                    <fullName>Computer Networks.</fullName>
+                    <default>false</default>
+                    <label>Computer Networks.</label>
+                </value>
+                <value>
+                    <fullName>Conflict Resolution</fullName>
+                    <default>false</default>
+                    <label>Conflict Resolution</label>
+                </value>
+                <value>
+                    <fullName>Data Structure and Algorithms.</fullName>
+                    <default>false</default>
+                    <label>Data Structure and Algorithms.</label>
+                </value>
+                <value>
+                    <fullName>Dynamics of Machines</fullName>
+                    <default>false</default>
+                    <label>Dynamics of Machines</label>
+                </value>
+                <value>
+                    <fullName>Electrohydraulic Control Systems</fullName>
+                    <default>false</default>
+                    <label>Electrohydraulic Control Systems</label>
+                </value>
+                <value>
+                    <fullName>Engineering Drawing</fullName>
+                    <default>false</default>
+                    <label>Engineering Drawing</label>
+                </value>
+                <value>
+                    <fullName>Engineering Mechanics</fullName>
+                    <default>false</default>
+                    <label>Engineering Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Entrepreneurship</fullName>
+                    <default>false</default>
+                    <label>Entrepreneurship</label>
+                </value>
+                <value>
+                    <fullName>Essentials of Marketing</fullName>
+                    <default>false</default>
+                    <label>Essentials of Marketing</label>
+                </value>
+                <value>
+                    <fullName>Etiquette and Conversational Skills</fullName>
+                    <default>false</default>
+                    <label>Etiquette and Conversational Skills</label>
+                </value>
+                <value>
+                    <fullName>Financial Management</fullName>
+                    <default>false</default>
+                    <label>Financial Management</label>
+                </value>
+                <value>
+                    <fullName>Fluid Machinery</fullName>
+                    <default>false</default>
+                    <label>Fluid Machinery</label>
+                </value>
+                <value>
+                    <fullName>Fluid Mechanics</fullName>
+                    <default>false</default>
+                    <label>Fluid Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Heat Transfer</fullName>
+                    <default>false</default>
+                    <label>Heat Transfer</label>
+                </value>
+                <value>
+                    <fullName>Human Resource Management</fullName>
+                    <default>false</default>
+                    <label>Human Resource Management</label>
+                </value>
+                <value>
+                    <fullName>Industrial Management</fullName>
+                    <default>false</default>
+                    <label>Industrial Management</label>
+                </value>
+                <value>
+                    <fullName>International Business Management</fullName>
+                    <default>false</default>
+                    <label>International Business Management</label>
+                </value>
+                <value>
+                    <fullName>Kinematic Analysis and Synthesis</fullName>
+                    <default>false</default>
+                    <label>Kinematic Analysis and Synthesis</label>
+                </value>
+                <value>
+                    <fullName>Machine Design</fullName>
+                    <default>false</default>
+                    <label>Machine Design</label>
+                </value>
+                <value>
+                    <fullName>Machine Drawing</fullName>
+                    <default>false</default>
+                    <label>Machine Drawing</label>
+                </value>
+                <value>
+                    <fullName>Machine Learning.</fullName>
+                    <default>false</default>
+                    <label>Machine Learning.</label>
+                </value>
+                <value>
+                    <fullName>Machining Technology and Metrology</fullName>
+                    <default>false</default>
+                    <label>Machining Technology and Metrology</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing Processes</fullName>
+                    <default>false</default>
+                    <label>Manufacturing Processes</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Material Science and Engineering</fullName>
+                    <default>false</default>
+                    <label>Material Science and Engineering</label>
+                </value>
+                <value>
+                    <fullName>Mathematics for Business</fullName>
+                    <default>false</default>
+                    <label>Mathematics for Business</label>
+                </value>
+                <value>
+                    <fullName>Measurement and Instrumentation</fullName>
+                    <default>false</default>
+                    <label>Measurement and Instrumentation</label>
+                </value>
+                <value>
+                    <fullName>Mechanics</fullName>
+                    <default>false</default>
+                    <label>Mechanics</label>
+                </value>
+                <value>
+                    <fullName>Mechatronics and Robotics</fullName>
+                    <default>false</default>
+                    <label>Mechatronics and Robotics</label>
+                </value>
+                <value>
+                    <fullName>Metrology and Metallography Lab</fullName>
+                    <default>false</default>
+                    <label>Metrology and Metallography Lab</label>
+                </value>
+                <value>
+                    <fullName>Negotiating and Persuading Skills</fullName>
+                    <default>false</default>
+                    <label>Negotiating and Persuading Skills</label>
+                </value>
+                <value>
+                    <fullName>Operating Systems.</fullName>
+                    <default>false</default>
+                    <label>Operating Systems.</label>
+                </value>
+                <value>
+                    <fullName>Organisational  Behaviour</fullName>
+                    <default>false</default>
+                    <label>Organisational  Behaviour</label>
+                </value>
+                <value>
+                    <fullName>Personality Development</fullName>
+                    <default>false</default>
+                    <label>Personality Development</label>
+                </value>
+                <value>
+                    <fullName>Problem Solving and Consulting Skills</fullName>
+                    <default>false</default>
+                    <label>Problem Solving and Consulting Skills</label>
+                </value>
+                <value>
+                    <fullName>Programming in C, C++</fullName>
+                    <default>false</default>
+                    <label>Programming in C, C++</label>
+                </value>
+                <value>
+                    <fullName>Selling</fullName>
+                    <default>false</default>
+                    <label>Selling</label>
+                </value>
+                <value>
+                    <fullName>Steam Power Plant</fullName>
+                    <default>false</default>
+                    <label>Steam Power Plant</label>
+                </value>
+                <value>
+                    <fullName>Strength of material</fullName>
+                    <default>false</default>
+                    <label>Strength of material</label>
+                </value>
+                <value>
+                    <fullName>Theory of Machines</fullName>
+                    <default>false</default>
+                    <label>Theory of Machines</label>
+                </value>
+                <value>
+                    <fullName>Workshop Practice</fullName>
+                    <default>false</default>
+                    <label>Workshop Practice</label>
+                </value>
+                <value>
+                    <fullName>Writing Skills</fullName>
+                    <default>false</default>
+                    <label>Writing Skills</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>X1st_Sem_Back__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>1st Sem Back?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X1st_Sem_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>1st Sem Percentage</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>X2nd_Sem_Back__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>2nd Sem Back?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X2nd_Sem_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>2nd Sem Percentage</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>X3rd_Sem_Back__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>3rd Sem Back?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X3rd_Sem_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>3rd Sem Percentage</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>X4th_Sem_Back__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>4th Sem Back?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X4th_Sem_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>4th Sem Percentage</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Student</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Student Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Students</pluralLabel>
+    <recordTypes>
+        <fullName>Registrar</fullName>
+        <active>true</active>
+        <label>Registrar</label>
+        <picklistValues>
+            <picklist>Class__c</picklist>
+            <values>
+                <fullName>ACCOUNTS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CIVIL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ECE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FINANCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GEOGRAPHY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HISTORY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARKETING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MATH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ME</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Current_Year__c</picklist>
+            <values>
+                <fullName>First Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fourth Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Second Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Section__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State__c</picklist>
+            <values>
+                <fullName>Andhra Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arunachal Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bihar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chennai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chhattisgarh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gangtok</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gujarat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Haryana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Himachal Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyderabad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jharkhand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Karnataka</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kerala</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Madhya Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maharashtra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manipur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meghalaya</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mizoram</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nagaland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Odisha</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Punjab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rajasthan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikkim</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tamil Nadu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telangana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tripura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uttar Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uttarakhand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>West Bengal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stream__c</picklist>
+            <values>
+                <fullName>B%2EArch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B%2ECom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B%2ETech</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M%2ETech</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MBA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back2__c</picklist>
+            <values>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applied Mechanics Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Artificial Intelligence%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Law</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Organisation and Principles of Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAD%2FCAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Architecture%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Forensics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Networks%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conflict Resolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Structure and Algorithms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dynamics of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrohydraulic Control Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essentials of Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Etiquette and Conversational Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heat Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resource Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International Business Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kinematic Analysis and Synthesis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Learning%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machining Technology and Metrology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics for Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Measurement and Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechatronics and Robotics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metrology and Metallography Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negotiating and Persuading Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating Systems%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organisational  Behaviour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personality Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Solving and Consulting Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming in C%2C C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steam Power Plant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of material</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Practice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Writing Skills</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back3__c</picklist>
+            <values>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applied Mechanics Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Artificial Intelligence%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Law</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Organisation and Principles of Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAD%2FCAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Architecture%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Forensics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Networks%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conflict Resolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Structure and Algorithms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dynamics of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrohydraulic Control Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essentials of Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Etiquette and Conversational Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heat Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resource Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International Business Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kinematic Analysis and Synthesis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Learning%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machining Technology and Metrology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics for Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Measurement and Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechatronics and Robotics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metrology and Metallography Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negotiating and Persuading Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating Systems%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organisational  Behaviour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personality Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Solving and Consulting Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming in C%2C C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steam Power Plant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of material</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Practice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Writing Skills</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back4__c</picklist>
+            <values>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applied Mechanics Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Artificial Intelligence%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Law</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Organisation and Principles of Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAD%2FCAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Architecture%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Forensics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Networks%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conflict Resolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Structure and Algorithms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dynamics of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrohydraulic Control Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essentials of Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Etiquette and Conversational Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heat Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resource Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International Business Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kinematic Analysis and Synthesis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Learning%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machining Technology and Metrology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics for Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Measurement and Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechatronics and Robotics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metrology and Metallography Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negotiating and Persuading Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating Systems%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organisational  Behaviour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personality Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Solving and Consulting Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming in C%2C C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steam Power Plant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of material</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Practice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Writing Skills</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applied Mechanics Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Artificial Intelligence%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Law</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Organisation and Principles of Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAD%2FCAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Architecture%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Forensics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Networks%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conflict Resolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Structure and Algorithms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dynamics of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrohydraulic Control Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essentials of Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Etiquette and Conversational Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heat Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resource Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International Business Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kinematic Analysis and Synthesis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Learning%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machining Technology and Metrology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics for Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Measurement and Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechatronics and Robotics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metrology and Metallography Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negotiating and Persuading Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating Systems%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organisational  Behaviour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personality Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Solving and Consulting Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming in C%2C C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steam Power Plant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of material</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Practice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Writing Skills</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Teacher</fullName>
+        <active>true</active>
+        <label>Teacher</label>
+        <picklistValues>
+            <picklist>Class__c</picklist>
+            <values>
+                <fullName>ACCOUNTS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CIVIL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ECE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FINANCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GEOGRAPHY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HISTORY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARKETING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MATH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ME</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Current_Year__c</picklist>
+            <values>
+                <fullName>First Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fourth Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Second Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Section__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State__c</picklist>
+            <values>
+                <fullName>Andhra Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arunachal Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bihar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chennai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chhattisgarh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gangtok</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gujarat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Haryana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Himachal Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyderabad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jharkhand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Karnataka</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kerala</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Madhya Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maharashtra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manipur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meghalaya</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mizoram</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nagaland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Odisha</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Punjab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rajasthan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikkim</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tamil Nadu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telangana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tripura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uttar Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uttarakhand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>West Bengal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stream__c</picklist>
+            <values>
+                <fullName>B%2EArch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B%2ECom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B%2ETech</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M%2ETech</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MBA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back2__c</picklist>
+            <values>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applied Mechanics Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Artificial Intelligence%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Law</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Organisation and Principles of Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAD%2FCAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Architecture%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Forensics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Networks%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conflict Resolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Structure and Algorithms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dynamics of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrohydraulic Control Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essentials of Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Etiquette and Conversational Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heat Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resource Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International Business Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kinematic Analysis and Synthesis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Learning%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machining Technology and Metrology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics for Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Measurement and Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechatronics and Robotics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metrology and Metallography Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negotiating and Persuading Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating Systems%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organisational  Behaviour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personality Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Solving and Consulting Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming in C%2C C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steam Power Plant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of material</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Practice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Writing Skills</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back3__c</picklist>
+            <values>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applied Mechanics Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Artificial Intelligence%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Law</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Organisation and Principles of Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAD%2FCAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Architecture%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Forensics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Networks%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conflict Resolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Structure and Algorithms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dynamics of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrohydraulic Control Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essentials of Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Etiquette and Conversational Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heat Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resource Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International Business Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kinematic Analysis and Synthesis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Learning%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machining Technology and Metrology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics for Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Measurement and Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechatronics and Robotics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metrology and Metallography Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negotiating and Persuading Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating Systems%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organisational  Behaviour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personality Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Solving and Consulting Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming in C%2C C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steam Power Plant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of material</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Practice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Writing Skills</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back4__c</picklist>
+            <values>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applied Mechanics Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Artificial Intelligence%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Law</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Organisation and Principles of Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAD%2FCAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Architecture%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Forensics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Networks%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conflict Resolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Structure and Algorithms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dynamics of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrohydraulic Control Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essentials of Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Etiquette and Conversational Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heat Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resource Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International Business Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kinematic Analysis and Synthesis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Learning%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machining Technology and Metrology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics for Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Measurement and Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechatronics and Robotics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metrology and Metallography Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negotiating and Persuading Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating Systems%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organisational  Behaviour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personality Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Solving and Consulting Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming in C%2C C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steam Power Plant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of material</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Practice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Writing Skills</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subjects_in_which_Back__c</picklist>
+            <values>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applied Mechanics Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Artificial Intelligence%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Law</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Organisation and Principles of Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAD%2FCAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Architecture%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Forensics%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Networks%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conflict Resolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Structure and Algorithms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dynamics of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electrohydraulic Control Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essentials of Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Etiquette and Conversational Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluid Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heat Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Resource Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International Business Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kinematic Analysis and Synthesis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Drawing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Learning%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machining Technology and Metrology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Material Science and Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics for Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Measurement and Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechatronics and Robotics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metrology and Metallography Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negotiating and Persuading Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating Systems%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organisational  Behaviour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personality Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Solving and Consulting Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Programming in C%2C C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steam Power Plant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strength of material</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Theory of Machines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Practice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Writing Skills</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
