@@ -23,12 +23,12 @@ public with sharing class ConsolidatedPatterns {
     *     Revision log:   V_1.0 - Created  - Your name - Prateek Bhadoria, Date- 28/06/2022
     * 
     **/
-	public static void rightStarPattern(){
+	public static void rightStarPattern(integer n){
     	integer x=1;
         integer j=1;
         string s=' ';
         string b=' ';
-        for(integer i=1;x<=5;){
+        for(integer i=1;x<=n;){
         	if(!(j<=i)){
             	j=1;
                 i++;
@@ -54,17 +54,17 @@ public with sharing class ConsolidatedPatterns {
     *     Revision log:   V_1.0 - Created  - Your name - Prateek Bhadoria, Date- 28/06/2022
     * 
     **/
-    public static void hollowtrianglepattern(){
+    public static void hollowtrianglepattern(integer n){
 		boolean b=true;
-		for(integer i=1;i<=5;i++)
+		for(integer i=1;i<=n;i++)
    	 	{
         string s=' ';
-        string w='   ';
-        for(integer j=1;j<=9;j++)
+        string w='   ';     
+        for(integer j=1;j<=(2*n-1);j++)
         {
-            if(i>=2 && i<=4){if(j>=7-i && j<=3+i){b=false;}else{b=true;}}else{b=true;}
+            if(i>=2 && i<=(n-1)){if(j>=(n+2)-i && j<=(n-2)+i){b=false;}else{b=true;}}else{b=true;}
             
-            if(j>=6-i && j<=4+i && b )
+            if(j>=(n+1)-i && j<=(n-1)+i && b )
             {
                 s = s + '* ';
               
@@ -93,14 +93,14 @@ public with sharing class ConsolidatedPatterns {
     *     Revision log:   V_1.0 - Created  - Your name - Prateek Bhadoria, Date- 28/06/2022
     * 
     **/
-    public static void leftstarpattern(){
-        for(integer i=1;i<=5;i++)
+    public static void leftstarpattern(integer n){
+        for(integer i=1;i<=n;i++)
     {
         string s='  ';
         string w='   ';
-        for(integer j=1;j<=5;j++)
+        for(integer j=1;j<=n;j++)
         {
-            if(j>=6-i )
+            if(j>=(n+1)-i )
             {
                 s = s + '* ';
             }
@@ -127,14 +127,14 @@ public with sharing class ConsolidatedPatterns {
     *     Revision log:   V_1.0 - Created  - Your name - Prateek Bhadoria, Date- 28/06/2022
     * 
     **/
-    public static void downwardstarpattern(){
-        for(integer i=1;i<=5;i++)
+    public static void downwardstarpattern(integer n){
+        for(integer i=1;i<=n;i++)
         {
         string s='  ';
         string w='   ';
-        for(integer j=1;j<=5;j++)
+        for(integer j=1;j<=n;j++)
         {
-            if(j<=6-i)
+            if(j<=(n+1)-i)
             {
                 s = s + '* ';
             }
@@ -161,14 +161,14 @@ public with sharing class ConsolidatedPatterns {
     *     Revision log:   V_1.0 - Created  - Your name - Prateek Bhadoria, Date- 28/06/2022
     * 
     **/
-    public static void reversedpyramidpattern(){
-        for(integer i=1;i<=5;i++){
+   public static void reversedpyramidpattern(integer n){
+        for(integer i=1;i<=n;i++){
     	string s='  ';
         string w='   ';
     	boolean k=true;
     
-    	for(integer j=1;j<=9;j++) {
-        	if(j>=i && j<=10-i && k){
+    	for(integer j=1;j<=(2*n-1);j++) {
+        	if(j>=i && j<=(2*n)-i && k){
             s = s + '* ';
             k=false;
         }
@@ -197,14 +197,14 @@ public with sharing class ConsolidatedPatterns {
     *     Revision log:   V_1.0 - Created  - Your name - Prateek Bhadoria, Date- 28/06/2022
     * 
     **/
-    public static void rightpascalpattern(){
+   public static void rightpascalpattern(integer n){
         integer k=0;
-		for(integer i=1;i<=10;i++)
+		for(integer i=1;i<=(2*n-1);i++)
     	{
-        	if(i<=5){k++;} else{k--;}
+        	if(i<=n){k++;} else{k--;}
         	string s='  ';
             string w='   ';
-        for(integer j=1;j<=5;j++)
+        for(integer j=1;j<=n;j++)
         {
             	if(j<=k)
             {
@@ -238,18 +238,18 @@ public with sharing class ConsolidatedPatterns {
     *     Revision log:   V_1.0 - Created  - Your name - Prateek Bhadoria, Date- 28/06/2022
     * 
     **/
-    public static void sandglassstarpattern(){
+    public static void sandglassstarpattern(integer n){
         integer k=0;
-		for(integer i=1;i<=10;i++)
+		for(integer i=1;i<=2*n;i++)
     	{
-        	if(i<=5){k++;} else{k--;}
+        	if(i<=n){k++;} else{k--;}
             
-        	if(i==6){k++;} 
+        	if(i==(n+1)){k++;} 
         	string s='  ';
         	string w='   ';
-        for(integer j=1;j<=9;j++)
+        for(integer j=1;j<=(2*n-1);j++)
         {
-            if(j>=k && j<=10-k)
+            if(j>=k && j<=2*n-k)
             {
                 s = s + '* ';
             }
@@ -367,10 +367,10 @@ public with sharing class ConsolidatedPatterns {
     *     Revision log:   V_1.0 - Created  - Your name - Prateek Bhadoria, Date- 28/06/2022
     * 
     **/
-    public static void numberpattern(){
+    public static void numberpattern(integer n){
         integer k=1;
 
- 		for(integer i=1;i<=5;i++)
+ 		for(integer i=1;i<=n;i++)
     	{
         string s = '';
         for(integer j=1;j<=i;j++)
