@@ -25,15 +25,15 @@ public with sharing class ConsolidatedPatterns
     * 
     **/
 	public static void rightStarPattern(integer n)
-    {
-    	integer x=1;
+	{
+		integer x=1;
         integer j=1;
         string s=' ';
         string b=' ';
         for(integer i=1;x<=n;)
         {
-        	if(!(j<=i)){
-            	j=1;
+            if(!(j<=i)){
+                j=1;
                 i++;
             }
             else
@@ -41,8 +41,10 @@ public with sharing class ConsolidatedPatterns
                 s = s + '*';
                 x++;
                 j++;
-                system.debug(s);
             }
+
+        system.debug(s);
+        
         }
     }
     /**   Description :   To print following pattern i.e. Hollow star triangle pattern-
@@ -186,7 +188,9 @@ public with sharing class ConsolidatedPatterns
             	k=true;
         }
     	}
+
     	system.debug(s);
+
 		}
     }
     /**   Description :   To print following pattern i.e. Right pascal's triangle star pattern-
@@ -212,8 +216,8 @@ public with sharing class ConsolidatedPatterns
 		for(integer i=1;i<=(2*n-1);i++)
     	{
         	if(i<=n){k++;} else{k--;}
-        	string s='  ';
-            string w='   ';
+        	    string s='  ';
+                string w='   ';
         for(integer j=1;j<=n;j++)
         {
             	if(j<=k)
@@ -424,7 +428,9 @@ public with sharing class ConsolidatedPatterns
             	s=s+'0';
         	}
     	}
+
     	system.debug(s);
+        
 		}
     }
     /**   Description :   To print whitespace
@@ -433,7 +439,7 @@ public with sharing class ConsolidatedPatterns
     *
     *     Return      :   return String 
     *
-    *     Revision log:   V_1.0 - Created  - Youe name - Prateek Bhadoria , Date- 04/07/2022
+    *     Revision log:   V_1.0 - Created  - Youe name - Prateek Bhadoria , Date- 04/07/2022 
     * 
     **/
     public static String preserveWhitespace(String s)
