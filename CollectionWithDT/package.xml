@@ -11,5 +11,17 @@
         <members>HelloWorldTrigger</members>
         <name>ApexTrigger</name>
     </types>
+    <types>
+        <members>Book__c.Price__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Book__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Book__c-Book Layout</members>
+        <name>Layout</name>
+    </types>
     <version>53.0</version>
 </Package>
