@@ -10,9 +10,9 @@
 *
 **/
 public class WrapperClass{
-    public List<wrapAccount> wrapAccountList {get; set;}
-    public List<Account> selectedAccounts{get;set;}
-
+	public list<productwrapper> recordlist { get; set;}
+    public list<selectoption> status;
+    public string selectedstatus { get; set;}
     /**   Description :   Creating a Constructor
     *
     *     Created By  :   Prateek Bhadoria
@@ -26,13 +26,34 @@ public class WrapperClass{
     * 
     **/ 
     public WrapperClass(){
-        if(wrapAccountList == null) {
-            wrapAccountList = new List<wrapAccount>();
-            for(Account a: [select Id, Name,BillingState, Website, Phone from Account limit 10]) {
-                // As each Account is processed we create a new wrapAccount objct
-                wrapAccountList.add(new wrapAccount(a));
-            }
+        list<product2> pro = [select id, name, isactive from product2];
+        if(pro.size()!=0){
+            recordlist = new list<productwrapper>();
         }
+        for(product2 p:pro){
+            recordlist.add(new productwrapper(p));
+        }
+        
+        selectedstatus = 'active';
+        
+    }
+    /**   Description :   Creating a Constructor
+    *
+    *     Created By  :   Prateek Bhadoria
+    *
+    *     Arguments   :   None
+    *
+    *     Return      :   void
+    *
+    *     Revision log:   V_1.0 - Created  - Prateek Bhadoria - Date-11/07/2022
+    *                     
+    * 
+    **/ 
+    public list<selectoption> getStatus(){
+        status = new list<selectoption>();
+        status.add(new selectoption('active','Active'));
+        status.add(new selectoption('inactive','In-Active'));
+        return status;
     }
     /**   Description :   Creating a method
     *
@@ -45,36 +66,39 @@ public class WrapperClass{
     *     Revision log:   V_1.0 - Created  - Prateek Bhadoria - Date-11/07/2022
     *                     
     * 
-    **/
-    public void processSelected() {
-    selectedAccounts = new List<Account>();
-
-        for(wrapAccount wrapAccountObj : wrapAccountList) {
-            if(wrapAccountObj.selected == true) {
-                selectedAccounts.add(wrapAccountObj.acc);
+    **/ 
+    public void changestatus(){
+        list<product2> prolist = new list<product2>();
+        for(productwrapper pw: recordlist){
+            if(pw.selected){
+                if(selectedstatus == 'active'){
+                    pw.record.isactive = true;
+                }else if(selectedstatus == 'inactive'){
+                    pw.record.isactive = false;
+                }
+                pw.selected=false;
+                prolist.add(pw.record);
             }
         }
+        update prolist;
     }
-
-
-    /**
-    * Description   - creating a wrapper class
+    /**   Description :   Creating a method
     *
-    * Created by    - Prateek Bhadoria
+    *     Created By  :   Prateek Bhadoria
     *
-    * Created Date  - 08/07/2022
+    *     Arguments   :   None
     *
-    * Revision log  -  V_1.0 - Created  - Prateek Bhadoria - Date-11/07/2022
-    *                  
+    *     Return      :   void
     *
+    *     Revision log:   V_1.0 - Created  - Prateek Bhadoria - Date-11/07/2022
+    *                     
+    * 
     **/ 
-    public class wrapAccount {
-        public Account acc {get; set;}
-        public Boolean selected {get; set;}
-
-        //This is the contructor method.
-        public wrapAccount(Account a) {
-            acc = a;
+    public class productwrapper{
+        public boolean selected { get; set;}
+        public product2 record  { get; set;}
+        public productwrapper(product2 record){
+            this.record = record;
             selected = false;
         }
     }
