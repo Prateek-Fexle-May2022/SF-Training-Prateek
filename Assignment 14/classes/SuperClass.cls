@@ -22,16 +22,16 @@ public virtual class SuperClass
     	{
         	system.debug('Parent class number is : ' +super.num);
     	}
-    /**   Description :   To Print
-    *     Created By  :   Prateek Bhadoria
-    *     Arguments   :   None
-    *     Return      :   None
-    *     Revision log:   V_1.0 - Created  - Prateek Bhadoria - Date - 12/07/2022
-    *                       
-    **/
-    public void printMethod() {
-    	SubClass obj = New SubClass();
-        obj.printNumber();
-	}
+    	/**   Description :   To Print
+    	*     Created By  :   Prateek Bhadoria
+        *     Arguments   :   None
+        *     Return      :   None
+        *     Revision log:   V_1.0 - Created  - Prateek Bhadoria - Date - 12/07/2022
+        *                       
+        **/
+    	public void printMethod() {
+    		SubClass obj = New SubClass();
+        	obj.printNumber();
+		}
 	}
 }
