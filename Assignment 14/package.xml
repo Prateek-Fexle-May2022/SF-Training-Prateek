@@ -3,7 +3,6 @@
     <types>
         <members>CallStudent</members>
         <members>CastingClass</members>
-        <members>CountryMap</members>
         <members>GameLevelClass</members>
         <members>InstanceOfKeyWord</members>
         <members>PurchaseOrcderClass</members>
