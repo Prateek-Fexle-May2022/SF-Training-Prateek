@@ -15,8 +15,8 @@ public class GameLevelClass{
     **/   
 	public interface GameLevel 
 	{ 
-    void levelNumber(); 
-    void environment();
+    	void levelNumber(); 
+    	void environment();
 	}
     /**
     * Description   - Level_Underground implemented the GameLevel class  
@@ -51,7 +51,7 @@ public class GameLevelClass{
         **/
     	public void environment()
     	{ 
-        System.debug('This level will be played Underground'); 
+        	System.debug('This level will be played Underground'); 
     	} 
 	} 
 	/**
