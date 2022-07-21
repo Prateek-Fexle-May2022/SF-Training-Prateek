@@ -25,14 +25,8 @@ public with sharing class DynamicCountryDatabase {
                                   Country_Name__r.Name, Country_Name__r.Country_Code__c, 
                                   (SELECT Name, District_Code__c, State_Name__r.Name 
                                   FROM Districts__r) 
-                                  FROM State__c
-                                  WHERE country_Name__r.Name = :countryName];
+                                  FROM State__c];
         for(State__c state :stList) {
-            
-            // Country Record Link of Salesforce UI
-            String recordUrl = URL.getSalesforceBaseUrl().toExternalForm() + '/' + state.Country_Name__r.Id;
-            system.debug('Link of Country record is => ' +recordUrl);
-            
             if(contMap.size() == 0){
                 contMap.put(state.Country_Name__r.Name,new Map<String, List<String>>());
             }
@@ -58,6 +52,10 @@ public with sharing class DynamicCountryDatabase {
         if(!combiList.isEmpty()){
             System.debug('Country, State and District in Combination : '+combiList);
         }
+        // Country Record Link of Salesforce UI
+        String recordUrl = URL.getSalesforceBaseUrl().toExternalForm() + '/' + stList[0].Country_Name__r.Id;
+        system.debug('Link of Country record is => ' +recordUrl);
+        
         aggregateQurey();
         countryJsonDatabase(countryName);
     }
