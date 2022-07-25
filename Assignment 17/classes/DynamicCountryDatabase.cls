@@ -39,12 +39,16 @@ public with sharing class DynamicCountryDatabase {
                 {
                 	combiList.add(state.Country_Name__r.Name+', '+state.Name+ ', '+district.Name);
                 }
-                if(!combiList.isEmpty()){
-            	    System.debug('Country, State and District in Combination : '+combiList);
-                }
             }
             contMap.get(stList[0].Country_Name__r.Name).putAll(stMap);
+            
+            if(!combiList.isEmpty()){
+            	System.debug('Country, State and District in Combination : '+combiList);
+            }
         }
+        
+        system.debug(contMap);
+        
         aggregateQurey();
         countryDatabase(countryName);
     }
