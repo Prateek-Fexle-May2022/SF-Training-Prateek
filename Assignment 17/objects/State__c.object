@@ -168,7 +168,7 @@
     </fields>
     <fields>
         <fullName>State_Code__c</fullName>
-        <caseSensitive>false</caseSensitive>
+        <caseSensitive>true</caseSensitive>
         <externalId>false</externalId>
         <label>State Code</label>
         <length>4</length>
@@ -180,7 +180,11 @@
     <fields>
         <fullName>State_s_Country__c</fullName>
         <externalId>false</externalId>
-        <formula>Country_Name__r.Name&amp;&quot;-&gt;&quot;&amp; Name</formula>
+        <formula>HYPERLINK(
+  &quot;/&quot; &amp; Country_Name__c,
+  Country_Name__r.Name,
+  &quot;_self&quot;
+)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>State&apos;s Country</label>
         <required>false</required>

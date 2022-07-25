@@ -7,6 +7,7 @@
     <types>
         <members>Country__c.Country_Code__c</members>
         <members>Country__c.Country_JSON_Data__c</members>
+        <members>Country__c.Total_Number_of_Districts__c</members>
         <members>Country__c.Total_Number_of_States__c</members>
         <members>District__c.Country_Name__c</members>
         <members>District__c.District_Code__c</members>
