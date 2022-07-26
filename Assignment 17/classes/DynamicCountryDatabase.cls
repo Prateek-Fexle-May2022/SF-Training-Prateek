@@ -20,6 +20,8 @@ public with sharing class DynamicCountryDatabase {
     **/
     public DynamicCountryDatabase(String startingKeyWord, String countryName) {
         
+        List<String> combiList = new List<String>();
+        
         //SOQL Parent(Country) to child(State) and child(District) to Parent(State) 
         List<State__c>  stList = [SELECT Name, State_Code__c, State_s_Country__c, 
                                   Country_Name__r.Name, Country_Name__r.Country_Code__c, 
@@ -27,27 +29,30 @@ public with sharing class DynamicCountryDatabase {
                                   FROM Districts__r) 
                                   FROM State__c];
         for(State__c state :stList) {
-            if(contMap.size() == 0){
-                contMap.put(state.Country_Name__r.Name,new Map<String, List<String>>());
+            if(!contMap.containsKey(state.Country_Name__r.Name)){
+            	contMap.put(state.Country_Name__r.Name,new Map<String, List<String>>());
             }
+            Map<String ,List<String>> stMap = contMap.get(state.Country_Name__r.Name);
             stMap.put(state.Name, new List<String>());
-            List<String> combiList = new List<String>();
             for(District__c district : state.Districts__r){
                 stMap.get(district.State_Name__r.Name).add(district.Name);
+                
                 if(state.Country_Name__r.Name.startsWith(startingKeyWord) && state.Name.startswith(startingKeyWord) 
                    && district.Name.startsWith(startingKeyWord) )
                 {
-                	combiList.add(state.Country_Name__r.Name+', '+state.Name+ ', '+district.Name);
+                    combiList.add(state.Country_Name__r.Name+', '+state.Name+ ', '+district.Name);
                 }
             }
-            contMap.get(stList[0].Country_Name__r.Name).putAll(stMap);
+            contMap.put(state.Country_Name__r.Name, stMap);
             
-            if(!combiList.isEmpty()){
-            	System.debug('Country, State and District in Combination : '+combiList);
-            }
+        }
+    	if(!combiList.isEmpty()){
+        	System.debug('Country, State and District in Combination : '+combiList);
+        }
+        for(String str : contMap.keySet()){
+            system.debug(str+'===========>'+contMap.get(str));	    
         }
         
-        system.debug(contMap);
         
         aggregateQurey();
         countryDatabase(countryName);
