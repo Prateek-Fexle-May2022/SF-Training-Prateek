@@ -30,7 +30,7 @@ public with sharing class DynamicCountryDatabase {
                                   FROM State__c];
         for(State__c state :stList) {
             if(!contMap.containsKey(state.Country_Name__r.Name)){
-            	contMap.put(state.Country_Name__r.Name,new Map<String, List<String>>());
+                contMap.put(state.Country_Name__r.Name,new Map<String, List<String>>());
             }
             Map<String ,List<String>> stMap = contMap.get(state.Country_Name__r.Name);
             stMap.put(state.Name, new List<String>());
@@ -46,13 +46,12 @@ public with sharing class DynamicCountryDatabase {
             contMap.put(state.Country_Name__r.Name, stMap);
             
         }
-    	if(!combiList.isEmpty()){
-        	System.debug('Country, State and District in Combination : '+combiList);
+        if(!combiList.isEmpty()){
+            System.debug('Country, State and District in Combination : '+combiList);
         }
         for(String str : contMap.keySet()){
             system.debug(str+'===========>'+contMap.get(str));	    
         }
-        
         
         aggregateQurey();
         countryDatabase(countryName);
@@ -74,23 +73,23 @@ public with sharing class DynamicCountryDatabase {
                                          GROUP BY State_Name__c];
         for(AggregateResult aggresult : stAggregate) {
             updateStMap.put((Id)aggresult.get('State_Name__c'), new State__c(Id = (Id)aggresult.get('State_Name__c'), 
-            Total_Number_of_Districts__c = (Integer)aggresult.get('totalDist')));
+                Total_Number_of_Districts__c = (Integer)aggresult.get('totalDist')));
         }
         if(!updateStMap.isEmpty()){
             update updateStMap.values();
         }
         
         Map<Id,Country__c> updateContMap=new Map<Id,Country__c>();
-
+        
         AggregateResult[] aggDistAndSt = [SELECT Count(Name) totalSt, SUM(Total_Number_of_Districts__c) totalDistrict,Country_Name__c  
-                                                       FROM State__c
-                                                       GROUP BY Country_Name__c];
+                                          FROM State__c
+                                          GROUP BY Country_Name__c];
         
         for(AggregateResult agresult : aggDistAndSt) {
-                updateContMap.put((Id)agresult.get('Country_Name__c'),new Country__c(Id=(Id)agresult.get('Country_Name__c'),
+            updateContMap.put((Id)agresult.get('Country_Name__c'),new Country__c(Id=(Id)agresult.get('Country_Name__c'),
                 Total_Number_of_States__c = (Decimal)agresult.get('totalSt'),
                 Total_Number_of_Districts__c=(Decimal)agresult.get('totalDistrict')));
-            }  
+        }  
         
         if(!updateContMap.isEmpty()){
             update updateContMap.values();   
@@ -105,11 +104,11 @@ public with sharing class DynamicCountryDatabase {
     **/    
     public static void countryDatabase(String countryName){ 
         
-        List<State__c> stateList = [SELECT Id, Name, Country_Name__r.Country_Code__c,
-                                     country_Name__r.Name,country_Name__r.Total_Number_of_States__c,
-                                     Country_Name__r.Total_Number_of_Districts__c
-                                     FROM State__c 
-                                     WHERE Country_Name__r.Name = :countryName];
+        List<State__c> stateList = [SELECT Id, Name, Country_Name__r.Country_Code__c,Country_Name__c,
+                                    country_Name__r.Name,country_Name__r.Total_Number_of_States__c,
+                                    Country_Name__r.Total_Number_of_Districts__c
+                                    FROM State__c 
+                                    WHERE Country_Name__r.Name = :countryName];
         
         if(!stateList.isEmpty()){
             Country wrapCountry = new Country();
@@ -133,21 +132,17 @@ public with sharing class DynamicCountryDatabase {
             }
             JSONDatabase = JSON.serialize(wrapCountry);
             System.debug('===>>>'+JSONDatabase);   
-        }
-        stateList[0].country_Name__r.Country_JSON_Data__c = JSONDatabase;
-        
-       Country__c  countryData = new Country__c();
-            countryData.Id =  stateList[0].Country_Name__r.Id;
+            
+            Country__c  countryData = new Country__c();
+            countryData.Id =  stateList[0].Country_Name__c;
             countryData.Country_JSON_Data__c = JSONDatabase;
             update countryData;
-
             // Create URL for Records on UI.
             String userInterfaceLink = URL.getSalesforceBaseUrl().toExternalForm()+'/'+countryData.Id;
             System.debug(userInterfaceLink);
-        
+        }
     }
     //Wrapper Classes
-    
     public class CountryData{
         public List<Country> country{get; set;}
     }
