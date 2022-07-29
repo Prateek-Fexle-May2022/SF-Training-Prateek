@@ -13,23 +13,16 @@ public class AccountTriggerHandler {
     *                      
     **/
     public static void accountNumberType(List<Account> newAccountList, Map<Id,Account> oldAccountMap) {
-        
-        // Creating 10 digit random number as account number
-        final String strNumber = '0123456789';
-        String accNumber = '';
-        while (accNumber.length() < 10) {
-            Integer createRandomNumber = Math.mod(Math.abs(Crypto.getRandomInteger()), strNumber.length());
-            accNumber += strNumber.substring(createRandomNumber, createRandomNumber+1);
-        }
         // Iterating Loop to create account number as per the account type
         for(Account account : newAccountList){
             if(account.AccountNumber == null){
+                Integer accNumber=Integer.valueOf(100000000*Math.random());
                 account.AccountNumber = String.valueof(accNumber);
             }
             if(oldAccountMap == null || account.Type != oldAccountMap.get(account.Id).Type){
                 if(account.Type == 'Savings Account'){
-                    if(account.AccountNumber.contains('CA-')){
-                        account.AccountNumber = account.AccountNumber.remove('CA-');
+                    if(account.AccountNumber.contains('FD-')){
+                        account.AccountNumber = account.AccountNumber.remove('FD-');
                         
                     }
                     account.AccountNumber = 'SA-'+account.AccountNumber;
