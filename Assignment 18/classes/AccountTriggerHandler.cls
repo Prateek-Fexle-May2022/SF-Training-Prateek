@@ -26,31 +26,29 @@ public class AccountTriggerHandler {
             if(account.AccountNumber == null){
                 account.AccountNumber = String.valueof(accNumber);
             }
-            if(account.Type == 'Savings Account' && (oldAccountMap == null || account.Type != oldAccountMap.get(account.Id).Type)){
-                if(account.AccountNumber.contains('CA-')){
-                    account.AccountNumber = account.AccountNumber.remove('CA-');
+            if(oldAccountMap == null || account.Type != oldAccountMap.get(account.Id).Type){
+                if(account.Type == 'Savings Account'){
+                    if(account.AccountNumber.contains('CA-')){
+                        account.AccountNumber = account.AccountNumber.remove('CA-');
+                        
+                    }
+                    account.AccountNumber = 'SA-'+account.AccountNumber;
                     
                 }
-                account.AccountNumber = 'SA-'+account.AccountNumber;
-                
-            }
-            else if(account.Type == 'Current Account' && (oldAccountMap == null || account.Type != oldAccountMap.get(account.Id).Type)){
-                if(account.AccountNumber.contains('SA-')){
-                    account.AccountNumber = account.AccountNumber.remove('SA-');
-                    
+                else if(account.Type == 'Fixed Deposit Account'){
+                    if(account.AccountNumber.contains('SA-')){
+                        account.AccountNumber = account.AccountNumber.remove('SA-');
+                    }
+                    account.AccountNumber = 'FD-'+account.AccountNumber;
                 }
-                account.AccountNumber = 'CA-'+account.AccountNumber;
-                
-            }
-            else if(account.Type != 'Current Account' && account.Type != 'Savings Account') {
-                if(account.AccountNumber.contains('CA-')){
-                    account.AccountNumber = account.AccountNumber.remove('CA-');
+                else {
+                    if(account.AccountNumber.contains('FD-')){
+                        account.AccountNumber = account.AccountNumber.remove('FD-');
+                    }
+                    if(account.AccountNumber.contains('SA-')){
+                        account.AccountNumber = account.AccountNumber.remove('SA-');
+                    }
                 }
-                if(account.AccountNumber.contains('SA-')){
-                    account.AccountNumber = account.AccountNumber.remove('SA-');
-                }
-                
-                account.AccountNumber = +account.AccountNumber;
             }
         }
     }
